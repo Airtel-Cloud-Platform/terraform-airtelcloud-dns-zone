@@ -14,7 +14,6 @@ variable "zone_type" {
 
   type    = string
   default = "forward"
-
   validation {
     condition = contains(
       ["forward", "reverse"],

@@ -6,7 +6,6 @@ output "zone_id" {
 
 output "zone_name" {
   description = "DNS Zone Name"
-
   value = airtelcloud_dns_zone.this.zone_name
 }
 
