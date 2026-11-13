@@ -7,3 +7,7 @@ module "dns_zone" {
 
   description = "Production DNS Zone"
 }
+
+output "dns_zone" {
+  value = module.dns_zone.dns_zone
+}
